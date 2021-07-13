@@ -1,12 +1,12 @@
 import './App.css';
-import ListCards from './components/cards/ListCards';
-import Navbar from './components/navbar/navbar'
+
+import ListCards from './componets/Cards/Cards/ListCards'
+import Navbar from './componets/Navbar/Navbar/Navbar';
 function App() {
   return (
     <div className="App">
-      <h1>Bienvenido a mi primera aplicacion en React</h1>
       <Navbar/>
-      <ListCards/>
+      <ListCards/> 
     </div>
   );
 }
