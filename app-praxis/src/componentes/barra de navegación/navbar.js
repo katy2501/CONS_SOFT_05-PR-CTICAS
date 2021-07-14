@@ -1,6 +1,4 @@
 import { useState } from "react"
-
-
 const Navbar = () => { 
     const[user, setUser] = useState(null)
     const login = () => {
