@@ -2,7 +2,7 @@ import { useState } from "react"
 const Navbar = () => { 
     const[user, setUser] = useState(null)
     const login = () => {
-      setUser({id:1,nombre:'Lbarcoc2'})
+      setUser({id:1,nombre:"Katy2501"})
     }
     const logaut = () => {
       setUser(null)
