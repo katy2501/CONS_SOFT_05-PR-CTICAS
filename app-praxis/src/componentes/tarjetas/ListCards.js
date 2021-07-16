@@ -13,8 +13,8 @@ const ListCards= () => {
                  setcelebridades(data.results)
                  setError(false)
              }catch(err) {
-            console.log(err)
-            setError(true)
+               console.log(err)
+               setError(true)
             }
         }, []}
     )
